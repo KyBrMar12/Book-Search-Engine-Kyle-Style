@@ -4,12 +4,17 @@ import "./App.css";
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
+// Direct URL link for testing purposes
+const API_URI = import.meta.env.VITE_GRAPHQL_URI || "https://book-search-engine-kyle-style-backend.onrender.com/graphql";
+
+//const API_URI = "https://book-search-engine-kyle-style-backend.onrender.com/graphql";
+
 // Dynamically set API URI for local and deployed environments
-const API_URI =
+/*const API_URI = 
   import.meta.env.MODE === "development"
     ? "http://localhost:3001/graphql" // Local for development
-    : "https://your-backend-name.onrender.com/graphql"; // Deployed API for production
-
+    : "https://book-search-engine-kyle-style-backend.onrender.com/graphql"; // Deployed API for production
+*/
 // Define the GraphQL endpoint
 const httpLink = createHttpLink({
   uri: API_URI,
