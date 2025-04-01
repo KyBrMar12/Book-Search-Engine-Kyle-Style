@@ -1,4 +1,4 @@
-# Kyle's Social Network API Application
+# Book Search Engine Application
 
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
@@ -8,12 +8,12 @@ This application searches for new books to read so that a user can keep a list o
 
 
 ## Deployed Link
-📽️- [Demo Link of Application](https://book-search-engine-kyle-style.onrender.com/) <br/>
+📽️- [Deployed Link of Application](https://book-search-engine-kyle-style.onrender.com/) <br/>
 
 ---
 
 ## 🎨 **Mock-Up**
-![alt text](![alt text](image.png))
+![alt text](image.png)
 
 ---
 
